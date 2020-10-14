@@ -1,0 +1,225 @@
+﻿<html style="font-size: larger;font-size: 25;backface-visibility: 100%;backface-visibility: initial;border size: 100px;background-color: #7c7c981f;opacity: 1;background-repeat: repeat;background-size: 100%;"><head>
+
+
+  <title>Chestionar satisfactie clienti</title>
+  
+  <script>
+ 
+
+    var a=1;
+    function mesaj_raspuns() {
+
+     
+      var pElement = document.getElementById("submit");
+
+
+
+
+pElement.innerHTML  = "Multumim pentru raspunsuri si timpul acordat" </h1>
+
+
+    }
+  
+    </script>
+	</head>
+
+
+		<body>
+<form action="save" >
+
+
+		<h3>Chestionar satisfactie client</h3>
+
+
+
+<h6>
+
+<div class="card a">
+  <div class="card-body a">
+  
+    a)	Cum evaluati modul in care s-a solutionat solicitarea dumneavoastra?
+
+ </div>
+</div>
+
+
+
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+ 
+<br>		
+<div class="card b">
+  <div class="card-body b">
+    b)	Cum evaluati promptitudinea cu care echipa noastra a intervenit?
+  </div>
+</div>
+
+<div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+
+<br>
+<div class="card c">
+  <div class="card-body c">
+    c)	Cum evaluati disponibilitatea si profesionalismul personalului de interventie?
+  </div>
+</div>
+
+<div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+<br>
+<div class="card d">
+  <div class="card-body d">
+   d)	Cum evaluati activitatea echipei din perspectiva curateniei si a modului de lucru?
+  </div>
+</div>
+
+<div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+
+<br>
+<div class="card e">
+  <div class="card-body e">
+  e)	Cum evaluati tinuta si dotarile tehnice ale echipei?
+  </div>
+</div>
+
+<div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+
+
+<div class="card f">
+  <div class="card-body f">
+  f)	Ce sugestii sau recomandari ne puteti oferi in ceea ce priveste imbunatatirea serviciilor sau a modului de lucru?
+<br>
+<textarea class="form-control" aria-label="With textarea" style="margin: 0px; width: 529px; height: 71px;"></textarea>
+  </div>
+</div>
+</h6>
+
+
+
+
+<br>
+<br>
+
+<input type="Submit"   style='font-size: 25px;' value="Submit" onclick="document.writeln('Multumim pentru raspunsuri si timpul acordat!' )" >
+
+</h6>
+
+</form>
+
+		</body>
+
+
+</html> 
